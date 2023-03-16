@@ -7,7 +7,7 @@ A bunch of simple npms commands.
 Use npm  to install the package globally.
 
 ```bash
-npm i -g @linofischer/react-simple-login
+npm i -g @linofischer/npm-commands-bundle
 ```
 
 ## Usage
