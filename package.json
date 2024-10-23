@@ -1,12 +1,12 @@
 {
-  "name": "@linofischer/npm-commands-bundle",
+  "name": "@linofischer/remo",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "type": "module",
   "version": "1.0.0",
-  "description": "Bunch of simple npm commands",
+  "description": "A simple command to delete the node_modules folder and the package-lock.json file. Then the script runs npm install to reinstall all dependencies. (In the current folder.)",
   "bin": {
     "remo": "bin/reinstall-modules.js"
   },
