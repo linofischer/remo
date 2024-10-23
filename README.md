@@ -1,20 +1,17 @@
-# NPM-commands-bundle
-
-A bunch of simple npms commands.
+# Reinstall modules (remo)
+A simple command to delete the **node_modules** folder, the **package.json** file and the **package-lock.json** file. Then the script runs **npm install** to reinstall all dependencies. (In the current folder.)
 
 ## Installation
 
-Use npm  to install the package globally.
+Use npm to install the package globally.
 
 ```bash
-npm i -g @linofischer/npm-commands-bundle
+npm i -g @linofischer/remo
 ```
 
 ## Usage
-
-#### Delete node_modules, delete package-lock.json and run npm install:
 ```
-ncb-reinstall-modules
+remo
 ```
 
 ## License
